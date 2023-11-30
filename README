@@ -1,0 +1,16 @@
+## Usage
+
+Run simulation for 2*N
+```
+python3 simulator_2N_asplos24.py <the value of m for 2*m grid>
+```
+
+Run simulation for Sycamore
+```
+python3 simulator_Googlesycamore_asplos24.py <the value of m for m*m grid>
+```
+
+Run simulation for m*m
+```
+python3 python3 simulator_N_N_asplos24.py <the value of m for m*m grid>
+```

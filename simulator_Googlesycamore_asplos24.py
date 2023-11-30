@@ -194,7 +194,7 @@ def INTER_U(pos, I, r1, swap_total):
 # pdb.set_trace()
 def main(argv):
     if len(argv) != 2:
-        print("Usage: python3", argv[0], "<# qubits>")
+        print("Usage: python3", argv[0], "<the value of m for m*m grid>")
         sys.exit(1)
     # Build the initial mapping of Google Sycamore
     N = int(argv[1])
